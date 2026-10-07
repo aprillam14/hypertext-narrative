@@ -1,5 +1,247 @@
 /* styles.css */
 
 * {
-	font-family: tahoma, sans-serif;
+	
+	box-sizing: border-box;
+}
+
+body{
+	margin: 100px;
+	line-height: 1;
+	background-color: #FFFBDB;
+	color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+body.homepage {
+	margin: 50px;
+	background-color: #000000;
+color : #ffffff;
+}
+.homepage .scene {
+	text-align: center;
+}
+.homepage h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 100px;
+line-height: 1;
+margin-bottom: 50px;
+letter-spacing: 10px;
+
+}
+.homepage p {
+	font-family: 'alfa slab one', cursive;
+	font-size: 60px;
+	margin-top: 50px;
+
+}
+.homepage .dog-image {
+	width: 300px;
+	height: auto;
+	transform: translateY(0px);
+
+}
+.homepage .eye-icon {
+	width: 150px;
+	height: auto;
+	margin-top: 0px;
+	transform: translateY(50px);
+}
+.homepage .wakeup {
+	font-family: 'VT323', monospace;
+	font-size: 80px;
+	margin-top: 55px;
+	text-decoration: underline;
+}
+.homepage .wakeup a{
+	color: #6286D4;
+}
+
+.awakescene img {
+	width: 600px;
+	height: auto;
+}
+
+h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 100px;
+line-height: 0;
+margin-bottom: 200px;
+letter-spacing: 10px;
+}
+
+p {
+	margin: 60px;
+	font-family: 'VT323', monospace;
+	font-size: 80px;
+}
+a {
+	position: relative;
+	top:-15
+}
+.eye-icon {
+	width: 100px;
+	height: auto;
+	margin-top: 0px;
+	transform: translateY(50px);
+}
+.wakeup {
+	font-family: 'VT323', monospace;
+	font-size: 120px;
+	margin-top: 0px;
+}
+.wakeup-link {
+	color: #6286D4;
+}
+body.youareawake {
+	background-color: #FFFBDB;
+	color: #000000;
+}
+.kitchen-icon {
+	width: 200px;
+	height: auto;
+	margin-top: 0px;
+	transform: translateY(50px);
+}
+.where {
+	font-family: 'VT323', monospace;
+	font-size: 120px;
+	margin-top: 0px;
+}
+.choices {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin-top: 50px;
+
+}
+.choice { 
+	display: flex;
+flex-direction: column;
+align-items: center;
+}
+.awakescene .choice img {
+	width: 300px;
+	height: auto;
+	margin-top: 0px;
+	transform: translateY(50px);
+}
+.choice p {
+	font-family: 'VT323', monospace;
+	font-size: 120px;
+	text-decoration: underline;
+}
+.edibles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 200px;	
+	margin-top: 50px;
+	
+}
+.edibles p {
+	margin: 10px;
+}
+.eat,
+.drink {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 120px;
+	font-family: 'vt323', monospace;
+}
+.eat img,
+.drink img {
+	width: 300px;
+	height: auto;
+	
+}
+a{
+	color: #6286D4;
+}
+.places {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 200px;
+	margin-top: 50px;
+}
+.find-owner,.tired,.yard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 120px;
+	font-family: 'vt323', monospace;
+}
+.find-owner img,.tired img,.yard img {
+	width: 300px;
+	height: auto;
+}
+.yardscene {
+	text-align: center;
+}
+.yard-options {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-items: flex-start;
+	gap: 200px;
+	margin-top: 50px;
+}
+.option {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.option img {
+	width: 300px;
+	height: auto;
+}
+.option a {
+	font-family: 'vt323', monospace;
+	font-size: 120px;
+	
+}
+.choices {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 200px;
+	margin-top: 0px;
+
+}
+.tired, .kitchen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 120px;
+	font-family: 'vt323', monospace;
+
+}
+.yard-page .option a {
+	position: relative;
+	top: -45px;
+}
+.choice img {
+	width: 300px;
+	height: auto;
+}
+.choice p {
+	transform: translateY(50px);
+	margin: 0px;
+}
+.hungry-page a {
+	font-family: 'VT323', monospace;
+	font-size: 120px;
+	margin-top: 0px;
+}
+.squirrel-page a {
+	font-family: 'VT323', monospace;
+	font-size: 120px;	
+	margin-top: 0px;
 }
